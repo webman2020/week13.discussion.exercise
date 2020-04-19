@@ -44,7 +44,7 @@ function SaveCookie() {
 
 	//	keeps for a year
 	date.setTime(date.getTime() + Number(365) * 3600 * 1000);
-	document.cookie = "DunmireShopList" + "=" + escape(ShoppingList.join(",")) + "; path=/week13.discussion.exercise/;expires = " + date.toGMTString();
+	document.cookie = "DunmireShopList" + "=" + escape(ShoppingList.join(",")) + "; path=https://webman2020.github.io/week13.discussion.exercise/;expires = " + date.toGMTString();
 }
 
 
